@@ -1,0 +1,43 @@
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: brown;
+    text-decoration-color: top: solid black;
+    text-align:center;
+    background: lightpink;
+    height: 200px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    float: left;
+}
+ul li{
+    position: relative;
+}
+li ul{
+    position: absolute;
+    left: 149px;
+    top:0;
+    display: flex;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(230, 149, 95);
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+article{
+    float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #eeadad;
+  height: 300px;
+    text-align: center;
+}
